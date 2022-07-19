@@ -4,7 +4,7 @@ var sample = new SampleObject()
 {
     Date1 = new DateTime(2021, 10, 19, 19, 45, 33),
     Date2 = new DateTime(2021, 10, 12, 12, 2, 39),
-    //Date3 = new DateTime(2023, 11, 13, 7, 34, 10),
+    Date3 = new DateTime(2023, 11, 13, 7, 34, 10),
     Date4 = new DateTime(2023, 12, 14, 17, 12, 56)
 };
 

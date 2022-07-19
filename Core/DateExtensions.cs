@@ -44,7 +44,8 @@ public static class DateExtensions
                 else
                 {
                     var date = prop.GetValue(sourceObject, null);
-                    if (date != null){
+                    if (date != null)
+                    {
                         var newDate = DateTime.SpecifyKind((DateTime)date, ((SetKind)dateTimeKindAttribute).Kind);
                         prop.SetValue(sourceObject, newDate);
                     }
